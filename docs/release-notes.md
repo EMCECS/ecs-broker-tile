@@ -1,5 +1,15 @@
 [Home](index.md) | [Installing](installing.md) | [Using](usage.md) | [Release Notes](release-notes.md) | [Troubleshooting](troubleshooting.md)
 
+## <a id="ver-2-3-3"></a> v2.3.3
+
+**Release Date:** November 25, 2024
+
+In this release:
+
+* Support for Tanzu Application Services version 5.x and 6.x
+* Support for Ubuntu Jammy stemcell
+* Upgraded dependencies to address CVEs
+
 ## <a id="ver-2-3-2"></a> v2.3.2
 
 **Release Date:** February 23, 2024

@@ -4,7 +4,7 @@ This topic describes how to use ECS Service Broker for VMware Tanzu after it has
 
 ## <a id='using'></a> Using ECS Service Broker for VMware Tanzu with an App
 
-To use ECS Service Broker for VMware Tanzu with an app, follow the procedures in this section to create a service instance and bind the service instance to your app. For more information about managing service instances, see [Managing Service Instances with the cf CLI](https://docs.pivotal.io/pivotalcf/devguide/services/managing-services.html).
+To use ECS Service Broker for VMware Tanzu with an app, follow the procedures in this section to create a service instance and bind the service instance to your app. For more information about managing service instances, see [Managing Service Instances with the cf CLI](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-platform-for-cloud-foundry/4-0/tpcf/services-managing-services.html).
 
 ### <a id="list"></a> View the Service
 
@@ -134,6 +134,7 @@ Run `cf delete-service` to delete the service.
 ```
   $ cf delete-service my-bucket
 ```
+-- Delete policy section
 
 Run the `cf services` command to check the deletion status.
 
@@ -141,7 +142,7 @@ Run the `cf services` command to check the deletion status.
 ## <a id='using'></a> Use ECS Service Broker for VMware Tanzu with an App
 
 To use ECS Service Broker for VMware Tanzu with an app, follow the procedures in this section to create a service instance and bind the service instance to your app. For more information about managing service instances,
-see [Managing Service Instances with the cf CLI](https://docs.pivotal.io/pivotalcf/devguide/services/managing-services.html).
+see [Managing Service Instances with the cf CLI](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-platform-for-cloud-foundry/4-0/tpcf/services-managing-services.html).
 
 ### <a id="remote"></a> Connect an ECS Service to a Remote VMware Tanzu Instance
 

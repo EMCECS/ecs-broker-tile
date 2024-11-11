@@ -2,7 +2,7 @@
 
 ## Description
 
-This tile is created using the [Pivotal Tile Generator](https://docs.pivotal.io/tiledev/2-10/tile-generator.html) and deploys a service-broker application as a CF app. It deploys a sister project, the [ECS Service Broker](https://github.com/thecodeteam/ecs-cf-service-broker). For more instructions on using the broker once deployed, refer to the [Pivotal Network documentation](https://docs.pivotal.io/partners/ecs-service-broker/).
+This tile is created using the [Tile Generator](https://docs.vmware.com/en/VMware-Tanzu-Operations-Manager/3.0/tile-dev-guide/tile-generator.html) and deploys a service-broker application as a CF app. It deploys a sister project, the [ECS Service Broker](https://github.com/EMCECS/ecs-cf-service-broker/). For more instructions on using the broker once deployed, refer to the [ECS Service Broker documentation](https://emcecs.github.io/ecs-broker-tile/).
 
 This tile implements the following tile generator errands:
 
@@ -15,7 +15,9 @@ be configured from the PCF Ops Manager.
 
 ## Current Status
 
-Currently, the Tile version 2.3.2 is available for download via the [Pivotal Network product page](https://network.pivotal.io/products/ecs-service-broker/).
+Currently, the Tile version 2.3.3 is available for download via the [Broadcom Support portal](https://support.broadcom.com/group/ecx/productdownloads?subfamily=ECS%20Service%20Broker%20for%20VMware%20Tanzu).
+* This is the last release of the tile, no further versions will be released.
+* Support for the tile will end on May 25, 2025. No support will be provided after this date.
 
 ## Requirement
 
@@ -26,13 +28,13 @@ Currently, the Tile version 2.3.2 is available for download via the [Pivotal Net
 
 ## Build Tile
 * Clone the code to your local bosh machine
-* Install [Tile Generator Tool](http://docs.pivotal.io/tiledev/tile-generator.html)
+* Install [Tile Generator Tool](https://docs.vmware.com/en/VMware-Tanzu-Operations-Manager/3.0/tile-dev-guide/tile-generator.html)
 * Run command `tile build`
 
 ## Deployment
 * Using OpsManager website upload the tile
 * Add tile to dashboard
-* Configure tile [according to the documentation](https://docs.pivotal.io/partners/ecs-service-broker/index.html).
+* Configure tile [according to the documentation](https://emcecs.github.io/ecs-broker-tile/installing.html).
 * Apply Changes
 * Run cf service-brokers to check the broker status
 
@@ -69,7 +71,7 @@ Valid permissions include:
  * delete
  * none
 
-For more information about the ECS Broker usage please refer to [ECS CF service broker](https://github.com/emccode/final/ecs-cf-service-broker)
+For more information about the ECS Broker usage please refer to [ECS CF service broker](https://emcecs.github.io/ecs-broker-tile/usage.html)
 
 ### Testing
 
