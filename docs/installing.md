@@ -14,7 +14,7 @@ To install the service broker, you must configure the broker application to conn
 
 To start running the ECS broker, do the following:
 
-1. Download the product file from [Pivotal Network](https://support.broadcom.com/group/ecx/productdownloads?subfamily=ECS%20Service%20Broker%20for%20VMware%20Tanzu).
+1. Download the product file from [Broadcom Support portal](https://support.broadcom.com/group/ecx/productdownloads?subfamily=ECS%20Service%20Broker%20for%20VMware%20Tanzu).
 
 1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file.
 

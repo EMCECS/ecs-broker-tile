@@ -57,7 +57,7 @@ To enable your app to access the service instance, run `cf restage` or `cf resta
 
 After you bind your service instance to your app, you can find the credentials of your ECS S3 user in the environment variables of the app.
 
-Run `cf env APP-NAME` to display environment variables. The credentials are listed under the [VCAP_SERVICES](https://docs.pivotal.io/pivotalcf/devguide/deploy-apps/environment-variable.html#VCAP-SERVICES) key.
+Run `cf env APP-NAME` to display environment variables. The credentials are listed under the [VCAP_SERVICES](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-platform-for-cloud-foundry/6-0/tpcf/deploy-apps-environment-variable.html#VCAP_SERVICES) key.
 
 ```
 $ cf env sample-app
