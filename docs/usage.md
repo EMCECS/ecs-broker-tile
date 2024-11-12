@@ -134,7 +134,6 @@ Run `cf delete-service` to delete the service.
 ```
   $ cf delete-service my-bucket
 ```
--- Delete policy section
 
 Run the `cf services` command to check the deletion status.
 

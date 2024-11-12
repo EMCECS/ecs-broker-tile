@@ -16,8 +16,8 @@ be configured from the PCF Ops Manager.
 ## Current Status
 
 Currently, the Tile version 2.3.3 is available for download via the [Broadcom Support portal](https://support.broadcom.com/group/ecx/productdownloads?subfamily=ECS%20Service%20Broker%20for%20VMware%20Tanzu).
-* This is the last release of the tile, no further versions will be released.
-* Support for the tile will end on May 25, 2025. No support will be provided after this date.
+* ***This is the last release of the tile, no further versions will be released.***
+* ***Support for the tile will end on May 25, 2025. No support will be provided after this date.***
 
 ## Requirement
 
