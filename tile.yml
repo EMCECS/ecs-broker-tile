@@ -2,11 +2,15 @@
 # The high-level description of your tile.
 # Replace these properties with real values.
 
-name: ecs-service-broker
-org: ecs-broker-service-org
-space: ecs-broker-service-space
+# Update below values specific to a broker instance (tile)
+# 1. Service Broker Settings > Broker prefix
+# 2. Catalog Service 1 	   > Name, Display Name
+
+name: y-ecs-service-broker
+org: y-ecs-broker-service-org
+space: y-ecs-broker-service-space
 icon_file: resources/icon.png
-label: DELL EMC ECS Broker
+label: Yogesh ECS Broker
 description: ECS Broker for VMware Tanzu
 metadata_version: 1.8                 # Optional, defaults to 1.8
 rank: 50
@@ -18,8 +22,8 @@ allow_paid_service_plans: true
 # explicitly using JavaScript migration functions, like so:
 
 migration: |
-  properties['properties']['.properties.org']['value'] = 'ecs-broker-service-org';
-  properties['properties']['.properties.space']['value'] = 'ecs-broker-service-space';
+  properties['properties']['.properties.org']['value'] ='y-ecs-broker-service-org';
+  properties['properties']['.properties.space']['value'] = 'y-ecs-broker-service-space';
 
 # Specify the packages to be included in your tile.
 # The format of the section to include depends on the type
@@ -29,9 +33,9 @@ migration: |
 # http://docs.pivotal.io/tiledev/tile-generator.html
 #
 packages:
-- name: ecs_broker
+- name: y_ecs_broker
   type: app-broker
-  label: ECS Broker Application      # Package name for use in human-readable labels in OpsManager
+  label: Yogesh ECS Broker TAS 5 Jammy      # Package name for use in human-readable labels in OpsManager
   enable_global_access_to_plans: (( .properties.enable_global_access_to_plans.value ))
   pre_deploy: |
     export PATH="/var/vcap/packages/cf_cli:$PATH"
