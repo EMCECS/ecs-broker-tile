@@ -4,6 +4,9 @@
 
 **Release Date:** November 25, 2024
 
+* ***This is the last release of the ECS Service Broker, no further versions will be released.***
+* ***Support for the broker will end on May 25, 2025. No support will be provided after this date.***
+
 In this release:
 
 * Support for Tanzu Application Services version 5.x and 6.x
