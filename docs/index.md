@@ -30,25 +30,19 @@ With ECS Service Broker for VMware Tanzu, you can do the following:
 
 ## <a id="snapshot"></a>Product Snapshot
 
-| Element      | Details                                                                      |
-|:-------------|:-----------------------------------------------------------------------------|
-| Tile Version | 2.3.2                                                                        |
-| Release Date | February 23, 2024                                                            |
-| Software component version | 2.3.2                                                                        |
-| Compatible Ops Manager version(s) | v3.0.x, v2.10.x, v2.9.x                                    |
-| Compatible Tanzu Application Service version(s) | v4.0.x, v3.0.x, v2.13.x, v2.12.x, v2.11.x, v2.10.x, v2.9.x |
-| BOSH stemcell version | Ubuntu Xenial 621                                                            |
-| IaaS support | AWS, Azure, OpenStack, and vSphere                                           |
-| IPsec support? | No                                                                           |
+| Element      | Details                            |
+|:-------------|:-----------------------------------|
+| Tile Version | 2.3.3                              |
+| Release Date | November 25, 2024                  |
+| Software component version | 2.3.3                              |
+| Compatible Ops Manager version(s) | v3.0.x, v2.10.x            |
+| Compatible Tanzu Application Service version(s) | v6.0.x, v5.0.x, v4.0.x     |
+| BOSH stemcell version | Ubuntu Jammy 1.506                   |
+| IaaS support | AWS, Azure, OpenStack, and vSphere |
+| IPsec support? | No                                 |
 
 ## <a id="reqs"></a> Requirements
 
 ECS Service Broker for VMware Tanzu has the following requirements:
 
-+ [Tanzu Application Service](https://network.pivotal.io/products/elastic-runtime)
-
-
-## <a id="feedback"></a> Feedback
-
-Report bugs, make feature requests or ask questions on the [VMware Tanzu Feedback](mailto:pivotal-cf-feedback@pivotal.io) list,
-or send an email to [ECS Service Broker Support](mailto:ecs.open.service.broker@dell.com).
++ [Tanzu Application Service](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Tanzu%20Application%20Service%20for%20VMs)
