@@ -7,7 +7,6 @@ This documentation describes ECS Service Broker for VMware Tanzu.
 ECS Service Broker for VMware Tanzu registers a service broker on VMware Tanzu and exposes its service plans on the Marketplace.
 Developers can provision buckets by creating instances of service plans using Apps Manager or the cf Command Line Interface (CLI) tool.
 
-
 ## <a id='features'></a> Key Features
 
 With ECS Service Broker for VMware Tanzu, you can do the following:
@@ -26,7 +25,6 @@ With ECS Service Broker for VMware Tanzu, you can do the following:
 * Support file system mounts of file access enabled buckets via NFS.
 * Configure offered services and plans through Ops Manager Tile.
 * Support for shared buckets across multiple VMware Tanzu instances.
-
 
 ## <a id="snapshot"></a>Product Snapshot
 
